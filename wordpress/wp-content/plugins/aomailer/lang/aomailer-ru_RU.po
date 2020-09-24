@@ -1,0 +1,406 @@
+# Copyright (C) 2015 Aomailer
+msgid ""
+msgstr ""
+"Project-Id-Version: Aomailer 1.0.14\n"
+"POT-Creation-Date: 2018-11-14 13:25+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-12-10 11:24+0300\n"
+"Language-Team: LANG <admin@muzu.ru>\n"
+"X-Generator: Poedit 1.8.12\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
+
+#: ../aomailer_plugin.php:1
+msgid "Error Install"
+msgstr "Отсутствует плагин WooCommerce, активация невозможна!"
+
+#: ../aomailer_plugin.php:2
+msgid "Aomailer"
+msgstr "SMS & Email Уведомления"
+
+#: ../aomailer_plugin.php:3
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../aomailer_plugin.php:4
+msgid "SettingsSMS"
+msgstr "TargetSMS "
+
+#: ../aomailer_plugin.php:5
+msgid "SettingsEmail"
+msgstr "Настройки Email"
+
+#: ../aomailer_plugin.php:6
+msgid "btnSave"
+msgstr "Сохранить"
+
+#: ../aomailer_plugin.php:7
+msgid "Events"
+msgstr "События"
+
+#: ../aomailer_plugin.php:8
+msgid "Templates"
+msgstr "Шаблоны"
+
+#: ../aomailer_plugin.php:9
+msgid "Mauling"
+msgstr "Рассылки"
+
+#: ../aomailer_plugin.php:10
+msgid "Login"
+msgstr "Логин"
+
+#: ../aomailer_plugin.php:11
+msgid "Password"
+msgstr "Пароль"
+
+#: ../aomailer_plugin.php:12
+msgid "FromName"
+msgstr "Подпись"
+
+#: ../aomailer_plugin.php:13
+msgid "Select"
+msgstr "Выберите..."
+
+#: ../aomailer_plugin.php:14
+msgid "Balance"
+msgstr "Баланс"
+
+#: ../aomailer_plugin.php:15
+msgid "Connect"
+msgstr "Подключение"
+
+#: ../aomailer_plugin.php:16
+msgid "AddBalance"
+msgstr "Пополнить баланс"
+
+#: ../aomailer_plugin.php:17
+msgid "PersonalAccount"
+msgstr "Личный кабинет"
+
+#: ../aomailer_plugin.php:18
+msgid "ConnectSuccess"
+msgstr "Настройки сохранены"
+
+#: ../aomailer_plugin.php:19
+msgid "EventUsed"
+msgstr "Использовать"
+
+#: ../aomailer_plugin.php:20
+msgid "NewOrder"
+msgstr "Новый заказ"
+
+#: ../aomailer_plugin.php:21
+msgid "PaymentOrder"
+msgstr "Оплата заказа"
+
+#: ../aomailer_plugin.php:22
+msgid "ChangeOrder"
+msgstr "Изменение статуса"
+
+#: ../aomailer_plugin.php:23
+msgid "TemplatesAdministrator"
+msgstr "Шаблоны администратора"
+
+#: ../aomailer_plugin.php:24
+msgid "TemplatesAdministratorWarning"
+msgstr "При клике по тегу регулярного выражения, тег будет выделен и скопирован в буфер."
+
+#: ../aomailer_plugin.php:25
+msgid "TemplatesClient"
+msgstr "Шаблоны клиента"
+
+#: ../aomailer_plugin.php:26
+msgid "TemplatesClientWarning"
+msgstr "При клике по тегу регулярного выражения, тег будет выделен и скопирован в буфер."
+
+#: ../aomailer_plugin.php:27
+msgid "EventsAdministrator"
+msgstr "Уведомления администратора"
+
+#: ../aomailer_plugin.php:28
+msgid "EventsAdministratorWarning"
+msgstr " "
+
+#: ../aomailer_plugin.php:29
+msgid "EventsClient"
+msgstr "Уведомления клиента"
+
+#: ../aomailer_plugin.php:30
+msgid "EventsClientWarning"
+msgstr " "
+
+#: ../aomailer_plugin.php:31
+msgid "TextSMS"
+msgstr "Текст сообщения"
+
+#: ../aomailer_plugin.php:32
+msgid "EventsType"
+msgstr "Тип уведомления"
+
+#: ../aomailer_plugin.php:33
+msgid "StoresName"
+msgstr "Название интернет-магазина"
+
+#: ../aomailer_plugin.php:34
+msgid "OrderID"
+msgstr "Номер/ID заказа"
+
+#: ../aomailer_plugin.php:35
+msgid "OrderSum"
+msgstr "Сумма заказа"
+
+#: ../aomailer_plugin.php:36
+msgid "ClientName"
+msgstr "Имя клиента"
+
+#: ../aomailer_plugin.php:37
+msgid "ClientLastName"
+msgstr "Фамилия клиента"
+
+#: ../aomailer_plugin.php:38
+msgid "OrderStatus"
+msgstr "Статус заказа"
+
+#: ../aomailer_plugin.php:39
+msgid "AddrOrderDelivery"
+msgstr "Адрес доставки заказа"
+
+#: ../aomailer_plugin.php:40
+msgid "MethodOrderDelivery"
+msgstr "Метод доставки заказа"
+
+#: ../aomailer_plugin.php:41
+msgid "AddrPayment"
+msgstr "Адрес оплаты"
+
+#: ../aomailer_plugin.php:42
+msgid "MethodPayment"
+msgstr "Метод оплаты"
+
+#: ../aomailer_plugin.php:43
+msgid "CountLetters"
+msgstr "Количество символов"
+
+#: ../aomailer_plugin.php:44
+msgid "WaitingForPayment"
+msgstr "В ожидании оплаты"
+
+#: ../aomailer_plugin.php:45
+msgid "Treatment"
+msgstr "В обработке"
+
+#: ../aomailer_plugin.php:46
+msgid "OnHold"
+msgstr "На удержании"
+
+#: ../aomailer_plugin.php:47
+msgid "Done"
+msgstr "Выполнен"
+
+#: ../aomailer_plugin.php:48
+msgid "Canceled"
+msgstr "Отменен"
+
+#: ../aomailer_plugin.php:49
+msgid "Returned"
+msgstr "Возвращён"
+
+#: ../aomailer_plugin.php:50
+msgid "Failed"
+msgstr "Ошибка"
+
+#: ../aomailer_plugin.php:51
+msgid "LengthOneSms"
+msgstr "Длина одного смс: "
+
+#: ../aomailer_plugin.php:52
+msgid "LengthOneSmsEng"
+msgstr "символов"
+
+#: ../aomailer_plugin.php:53
+msgid "SizeMessage"
+msgstr "Размер сообщения"
+
+#: ../aomailer_plugin.php:54
+msgid "FromEmail"
+msgstr "Email отправителя"
+
+#: ../aomailer_plugin.php:55
+msgid "FromNameEmail"
+msgstr "Подпись отправителя"
+
+#: ../aomailer_plugin.php:56
+msgid "ReplyTo"
+msgstr "Ответить на email"
+
+#: ../aomailer_plugin.php:57
+msgid "ReplyToName"
+msgstr "Ответить на имя"
+
+#: ../aomailer_plugin.php:58
+msgid "History"
+msgstr "История"
+
+#: ../aomailer_plugin.php:59
+msgid "Help"
+msgstr "Помощь"
+
+#: ../aomailer_plugin.php:60
+msgid "SettingsAdministrator"
+msgstr "Основные настройки"
+
+#: ../aomailer_plugin.php:61
+msgid "SettingsAdministratorWarning"
+msgstr " "
+
+#: ../aomailer_plugin.php:62
+msgid "HistoryAdministrator"
+msgstr "История сообщений"
+
+#: ../aomailer_plugin.php:63
+msgid "HistoryAdministratorWarning"
+msgstr " "
+
+#: ../aomailer_plugin.php:64
+msgid "btnSearch"
+msgstr "Поиск"
+
+#: ../aomailer_plugin.php:65
+msgid "Phone"
+msgstr "Телефон"
+
+#: ../aomailer_plugin.php:66
+msgid "HelpTitle"
+msgstr "Помощь"
+
+#: ../aomailer_plugin.php:67
+msgid "HelpWarning"
+msgstr " "
+
+#: ../aomailer_plugin.php:68
+msgid "MailingTitle"
+msgstr "Рассылки"
+
+#: ../aomailer_plugin.php:69
+msgid "MailingWarning"
+msgstr " "
+
+#: ../aomailer_plugin.php:70
+msgid "SMS"
+msgstr "СМС"
+
+#: ../aomailer_plugin.php:71
+msgid "No History"
+msgstr "История не найдена"
+
+#: ../aomailer_plugin.php:72
+msgid "No Save"
+msgstr "Не удалось сохранить данные"
+
+#: ../aomailer_plugin.php:73
+msgid "btnSend"
+msgstr "Отправить"
+
+#: ../aomailer_plugin.php:74
+msgid "SettingsAdministratorEmail"
+msgstr "Настройки Email"
+
+#: ../aomailer_plugin.php:75
+msgid "SettingsAdministratorWarningEmail"
+msgstr " "
+
+#: ../aomailer_plugin.php:76
+msgid "EmailUsed"
+msgstr "Использовать"
+
+#: ../aomailer_plugin.php:77
+msgid "All customers"
+msgstr "Все клиенты"
+
+#: ../aomailer_plugin.php:78
+msgid "Use translit"
+msgstr "Использовать транслит"
+
+#: ../aomailer_plugin.php:79
+msgid "Read the instructions on the website TargetSMS"
+msgstr "Читайте инструкцию на сайте TargetSMS"
+
+#: ../aomailer_plugin.php:80
+msgid "Recipients"
+msgstr "Получатели"
+
+#: ../aomailer_plugin.php:81
+msgid "departure date"
+msgstr "Дата отправки"
+
+#: ../aomailer_plugin.php:82
+msgid "with status"
+msgstr "со статусом:"
+
+#: ../aomailer_plugin.php:83
+msgid "Select recipients"
+msgstr "Выбрать получателей"
+
+#: ../aomailer_plugin.php:84
+msgid "Missing data"
+msgstr "Отсутствуют данные"
+
+#: ../aomailer_plugin.php:85
+msgid "Could not send newsletter"
+msgstr "Не удалось отправить рассылку"
+
+#: ../aomailer_plugin.php:86
+msgid "Message sent successfully"
+msgstr "Сообщение успешно отправлено"
+
+#: ../aomailer_plugin.php:87
+msgid "Period"
+msgstr "Период"
+
+#: ../aomailer_plugin.php:88
+msgid "from"
+msgstr "от"
+
+#: ../aomailer_plugin.php:89
+msgid "to"
+msgstr "до"
+
+#: ../aomailer_plugin.php:90
+msgid "Operator"
+msgstr "Оператор"
+
+#: ../aomailer_plugin.php:91
+msgid "Number"
+msgstr "Номер"
+
+#: ../aomailer_plugin.php:92
+msgid "Send time"
+msgstr "Время отправки"
+
+#: ../aomailer_plugin.php:93
+msgid "Status"
+msgstr "Статус"
+
+#: ../aomailer_plugin.php:94
+msgid "Price"
+msgstr "Цена"
+
+#: ../aomailer_plugin.php:95
+msgid "Failed to send email notification"
+msgstr "Не удалось отправить email уведомление. Error: "
+
+#: ../aomailer_plugin.php:96
+msgid "Notification successfully sent"
+msgstr "Уведомление успешно отправлено. Message: "
+
+#: ../aomailer_plugin.php:97
+msgid "Incorrect data"
+msgstr "Некорректные данные"
+
+#: ../aomailer_plugin.php:98
+msgid "No Answer"
+msgstr "Ошибка подключения"

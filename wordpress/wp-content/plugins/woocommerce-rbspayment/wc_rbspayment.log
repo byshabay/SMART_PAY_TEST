@@ -1,0 +1,148 @@
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2020-09-23 13:13:22
+Wordpress version 5.5.1; Woocommerce version: 4.5.2
+Request: https://3dsec.sberbank.ru/payment/rest/register.do: Array
+(
+    [userName] => smartstudio-api
+    [password] => smartstudio
+    [amount] => 50000
+    [language] => ru
+    [returnUrl] => http://localhost:8888/test/wordpress?wc-api=WC_RBSPAYMENT&rbspayment=result&order_id=16&wc-callb=callback_function
+    [currency] => 643
+    [jsonParams] => {"CMS:":"Wordpress 5.5.1 + woocommerce version: 4.5.2","Module-Version: ":"3.3.1","email":"a.shabaikina@itron.group","phone":"89035735045"}
+    [orderNumber] => 16_1600866800
+)
+Response: {"orderId":"77d0ea62-5378-78ab-89bd-77485e3df02c","formUrl":"https://3dsec.sberbank.ru/payment/merchants/sbersafe_id/payment_ru.html?mdOrder=77d0ea62-5378-78ab-89bd-77485e3df02c"}
+
+Request: https://3dsec.sberbank.ru/payment/rest/getOrderStatusExtended.do: Array
+(
+    [userName] => smartstudio-api
+    [password] => smartstudio
+    [orderId] => 77d0ea62-5378-78ab-89bd-77485e3df02c
+)
+Response: {"errorCode":"0","errorMessage":"Успешно","orderNumber":"16_1600866800","orderStatus":2,"actionCode":0,"actionCodeDescription":"","amount":50000,"currency":"643","date":1600866801979,"orderDescription":"","ip":"109.72.70.169","merchantOrderParams":[{"name":"phone","value":"89035735045"},{"name":"sber_safe_email","value":"a.shabaikina@itron.group"},{"name":"new_card_payment","value":"true"},{"name":"sber_safe_phone","value":"9017692704"},{"name":"Module-Version: ","value":"3.3.1"},{"name":"CMS:","value":"Wordpress 5.5.1 + woocommerce version: 4.5.2"},{"name":"email","value":"a.shabaikina@itron.group"}],"transactionAttributes":[],"attributes":[{"name":"mdOrder","value":"77d0ea62-5378-78ab-89bd-77485e3df02c"}],"cardAuthInfo":{"maskedPan":"411111**1111","expiration":"202412","cardholderName":"CARDHOLDER NAME","approvalCode":"123456","pan":"411111**1111"},"authDateTime":1600866898522,"terminalId":"123456","authRefNum":"173881063136","paymentAmountInfo":{"paymentState":"DEPOSITED","approvedAmount":50000,"depositedAmount":50000,"refundedAmount":0},"bankInfo":{"bankName":"TEST CARD","bankCountryCode":"RU","bankCountryName":"Россия"}}
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2020-09-23 13:20:30
+Wordpress version 5.5.1; Woocommerce version: 4.5.2
+Request: https://3dsec.sberbank.ru/payment/rest/register.do: Array
+(
+    [userName] => smartstudio-api
+    [password] => smartstudio
+    [amount] => 500000000000
+    [language] => ru
+    [returnUrl] => http://localhost:8888/test/wordpress?wc-api=WC_RBSPAYMENT&rbspayment=result&order_id=17&wc-callb=callback_function
+    [currency] => 643
+    [jsonParams] => {"CMS:":"Wordpress 5.5.1 + woocommerce version: 4.5.2","Module-Version: ":"3.3.1","email":"a.shabaikina@itron.group","phone":"89017692704"}
+    [orderNumber] => 17_1600867229
+)
+Response: {"orderId":"dd3af6e9-bd8c-71a8-b9ca-77c25e3df02c","formUrl":"https://3dsec.sberbank.ru/payment/merchants/sbersafe_id/payment_ru.html?mdOrder=dd3af6e9-bd8c-71a8-b9ca-77c25e3df02c"}
+
+Request: https://3dsec.sberbank.ru/payment/rest/getOrderStatusExtended.do: Array
+(
+    [userName] => smartstudio-api
+    [password] => smartstudio
+    [orderId] => dd3af6e9-bd8c-71a8-b9ca-77c25e3df02c
+)
+Response: {"errorCode":"0","errorMessage":"Успешно","orderNumber":"17_1600867229","orderStatus":2,"actionCode":0,"actionCodeDescription":"","amount":500000000000,"currency":"643","date":1600867229822,"orderDescription":"","ip":"109.72.70.169","merchantOrderParams":[{"name":"phone","value":"89017692704"},{"name":"sber_safe_email","value":"a.shabaikina@itron.group"},{"name":"new_card_payment","value":"true"},{"name":"sber_safe_phone","value":"9017692704"},{"name":"Module-Version: ","value":"3.3.1"},{"name":"CMS:","value":"Wordpress 5.5.1 + woocommerce version: 4.5.2"},{"name":"email","value":"a.shabaikina@itron.group"}],"transactionAttributes":[],"attributes":[{"name":"mdOrder","value":"dd3af6e9-bd8c-71a8-b9ca-77c25e3df02c"}],"cardAuthInfo":{"maskedPan":"411111**1111","expiration":"202412","cardholderName":"CARDHOLDER NAME","approvalCode":"123456","pan":"411111**1111"},"authDateTime":1600867397218,"terminalId":"123456","authRefNum":"405792270193","paymentAmountInfo":{"paymentState":"DEPOSITED","approvedAmount":500000000000,"depositedAmount":500000000000,"refundedAmount":0},"bankInfo":{"bankName":"TEST CARD","bankCountryCode":"RU","bankCountryName":"Россия"}}
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2020-09-23 14:46:29
+Wordpress version 5.5.1; Woocommerce version: 4.5.2
+Request: https://3dsec.sberbank.ru/payment/rest/register.do: Array
+(
+    [userName] => smartstudio-api
+    [password] => smartstudio
+    [amount] => 50000
+    [language] => ru
+    [returnUrl] => http://localhost:8888/test/wordpress?wc-api=WC_RBSPAYMENT&rbspayment=result&order_id=19&wc-callb=callback_function
+    [currency] => 643
+    [jsonParams] => {"CMS:":"Wordpress 5.5.1 + woocommerce version: 4.5.2","Module-Version: ":"3.3.1","email":"a.shabaikina@itron.group","phone":"89017692704"}
+    [orderNumber] => 19_1600872388
+)
+Response: {"orderId":"f939b5f6-3b1a-7078-850c-7b8c5e3df02c","formUrl":"https://3dsec.sberbank.ru/payment/merchants/sbersafe_id/payment_ru.html?mdOrder=f939b5f6-3b1a-7078-850c-7b8c5e3df02c"}
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2020-09-23 15:13:43
+Wordpress version 5.5.1; Woocommerce version: 4.5.2
+Request: https://3dsec.sberbank.ru/payment/rest/register.do: Array
+(
+    [userName] => smartstudio-api
+    [password] => smartstudio
+    [amount] => 100000
+    [language] => ru
+    [returnUrl] => http://localhost:8888/test/wordpress?wc-api=WC_RBSPAYMENT&rbspayment=result&order_id=21&wc-callb=callback_function
+    [currency] => 643
+    [jsonParams] => {"CMS:":"Wordpress 5.5.1 + woocommerce version: 4.5.2","Module-Version: ":"3.3.1","email":"a.shabaikina@itron.group","phone":"89017692704"}
+    [orderNumber] => 21_1600874022
+)
+Response: {"orderId":"f8d6ee12-6497-7e90-ac68-14435e3df02c","formUrl":"https://3dsec.sberbank.ru/payment/merchants/sbersafe_id/payment_ru.html?mdOrder=f8d6ee12-6497-7e90-ac68-14435e3df02c"}
+
+Request: https://3dsec.sberbank.ru/payment/rest/getOrderStatusExtended.do: Array
+(
+    [userName] => smartstudio-api
+    [password] => smartstudio
+    [orderId] => f8d6ee12-6497-7e90-ac68-14435e3df02c
+)
+Response: {"errorCode":"0","errorMessage":"Успешно","orderNumber":"21_1600874022","orderStatus":2,"actionCode":0,"actionCodeDescription":"","amount":100000,"currency":"643","date":1600874023186,"orderDescription":"","ip":"109.72.70.169","merchantOrderParams":[{"name":"phone","value":"89017692704"},{"name":"Module-Version: ","value":"3.3.1"},{"name":"CMS:","value":"Wordpress 5.5.1 + woocommerce version: 4.5.2"},{"name":"email","value":"a.shabaikina@itron.group"}],"transactionAttributes":[],"attributes":[{"name":"mdOrder","value":"f8d6ee12-6497-7e90-ac68-14435e3df02c"}],"cardAuthInfo":{"maskedPan":"555555**5599","expiration":"202412","cardholderName":"CARDHOLDER NAME","approvalCode":"123456","pan":"555555**5599"},"authDateTime":1600874075031,"terminalId":"123456","authRefNum":"799916068235","paymentAmountInfo":{"paymentState":"DEPOSITED","approvedAmount":100000,"depositedAmount":100000,"refundedAmount":0},"bankInfo":{"bankName":"SOME BANK IN USA","bankCountryCode":"US","bankCountryName":"Соединенные Штаты Америки"}}
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2020-09-23 15:23:32
+Wordpress version 5.5.1; Woocommerce version: 4.5.2
+Request: https://3dsec.sberbank.ru/payment/rest/register.do: Array
+(
+    [userName] => smartstudio-api
+    [password] => smartstudio
+    [amount] => 150000
+    [language] => ru
+    [returnUrl] => http://localhost:8888/test/wordpress?wc-api=WC_RBSPAYMENT&rbspayment=result&order_id=22&wc-callb=callback_function
+    [currency] => 643
+    [jsonParams] => {"CMS:":"Wordpress 5.5.1 + woocommerce version: 4.5.2","Module-Version: ":"3.3.1","email":"a.shabaikina@itron.group","phone":"89017692704"}
+    [orderNumber] => 22_1600874611
+)
+Response: {"orderId":"3e30223e-f6fc-7433-9c72-d0f45e3df02c","formUrl":"https://3dsec.sberbank.ru/payment/merchants/sbersafe_id/payment_ru.html?mdOrder=3e30223e-f6fc-7433-9c72-d0f45e3df02c"}
+
+Request: https://3dsec.sberbank.ru/payment/rest/getOrderStatusExtended.do: Array
+(
+    [userName] => smartstudio-api
+    [password] => smartstudio
+    [orderId] => 3e30223e-f6fc-7433-9c72-d0f45e3df02c
+)
+Response: {"errorCode":"0","errorMessage":"Успешно","orderNumber":"22_1600874611","orderStatus":2,"actionCode":0,"actionCodeDescription":"","amount":150000,"currency":"643","date":1600874612499,"orderDescription":"","ip":"109.72.70.169","merchantOrderParams":[{"name":"phone","value":"89017692704"},{"name":"Module-Version: ","value":"3.3.1"},{"name":"CMS:","value":"Wordpress 5.5.1 + woocommerce version: 4.5.2"},{"name":"email","value":"a.shabaikina@itron.group"}],"transactionAttributes":[],"attributes":[{"name":"mdOrder","value":"3e30223e-f6fc-7433-9c72-d0f45e3df02c"}],"cardAuthInfo":{"maskedPan":"220000**0053","expiration":"202412","cardholderName":"CARDHOLDER NAME","approvalCode":"123456","pan":"220000**0053"},"authDateTime":1600874649731,"terminalId":"123456","authRefNum":"242334988860","paymentAmountInfo":{"paymentState":"DEPOSITED","approvedAmount":150000,"depositedAmount":150000,"refundedAmount":0},"bankInfo":{"bankName":"BANK MIR","bankCountryCode":"RU","bankCountryName":"Россия"}}
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2020-09-23 15:39:15
+Wordpress version 5.5.1; Woocommerce version: 4.5.2
+Request: https://3dsec.sberbank.ru/payment/rest/register.do: Array
+(
+    [userName] => smartstudio-api
+    [password] => smartstudio
+    [amount] => 50000
+    [language] => ru
+    [returnUrl] => http://localhost:8888/test/wordpress?wc-api=WC_RBSPAYMENT&rbspayment=result&order_id=25&wc-callb=callback_function
+    [currency] => 643
+    [jsonParams] => {"CMS:":"Wordpress 5.5.1 + woocommerce version: 4.5.2","Module-Version: ":"3.3.1","email":"shabbaykina@mail.ru","phone":"89017692704"}
+    [orderNumber] => 25_1600875554
+)
+Response: {"orderId":"7d181491-f0f5-758e-b977-450b5e3df02c","formUrl":"https://3dsec.sberbank.ru/payment/merchants/sbersafe_id/payment_ru.html?mdOrder=7d181491-f0f5-758e-b977-450b5e3df02c"}
+
+Request: https://3dsec.sberbank.ru/payment/rest/getOrderStatusExtended.do: Array
+(
+    [userName] => smartstudio-api
+    [password] => smartstudio
+    [orderId] => 7d181491-f0f5-758e-b977-450b5e3df02c
+)
+Response: {"errorCode":"0","errorMessage":"Успешно","orderNumber":"25_1600875554","orderStatus":2,"actionCode":0,"actionCodeDescription":"","amount":50000,"currency":"643","date":1600875555270,"orderDescription":"","ip":"109.72.70.169","merchantOrderParams":[{"name":"phone","value":"89017692704"},{"name":"sber_safe_email","value":"shabbaykina@mail.ru"},{"name":"new_card_payment","value":"true"},{"name":"sber_safe_phone","value":"9032622565"},{"name":"Module-Version: ","value":"3.3.1"},{"name":"CMS:","value":"Wordpress 5.5.1 + woocommerce version: 4.5.2"},{"name":"email","value":"shabbaykina@mail.ru"}],"transactionAttributes":[],"attributes":[{"name":"mdOrder","value":"7d181491-f0f5-758e-b977-450b5e3df02c"}],"cardAuthInfo":{"maskedPan":"220000**0053","expiration":"202412","cardholderName":"CARDHOLDER NAME","approvalCode":"123456","pan":"220000**0053"},"authDateTime":1600875602949,"terminalId":"123456","authRefNum":"808699986181","paymentAmountInfo":{"paymentState":"DEPOSITED","approvedAmount":50000,"depositedAmount":50000,"refundedAmount":0},"bankInfo":{"bankName":"BANK MIR","bankCountryCode":"RU","bankCountryName":"Россия"}}
+

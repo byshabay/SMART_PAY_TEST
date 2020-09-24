@@ -1,0 +1,406 @@
+# Copyright (C) 2015 Aomailer
+msgid ""
+msgstr ""
+"Project-Id-Version: Aomailer 1.0.14\n"
+"POT-Creation-Date: 2015-06-25 10:17+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-12-10 11:24+0300\n"
+"Language-Team: LANG <admin@muzu.ru>\n"
+"X-Generator: Poedit 1.8.12\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+
+#: ../aomailer_plugin.php:1
+msgid "Error Install"
+msgstr "WooCommerce plugin is missing, activation is not possible!"
+
+#: ../aomailer_plugin.php:2
+msgid "Aomailer"
+msgstr "SMS & Email Notifications"
+
+#: ../aomailer_plugin.php:3
+msgid "Settings"
+msgstr "Settings"
+
+#: ../aomailer_plugin.php:4
+msgid "SettingsSMS"
+msgstr "TargetSMS "
+
+#: ../aomailer_plugin.php:5
+msgid "SettingsEmail"
+msgstr "Settings Email"
+
+#: ../aomailer_plugin.php:6
+msgid "btnSave"
+msgstr "Save"
+
+#: ../aomailer_plugin.php:7
+msgid "Events"
+msgstr "Events"
+
+#: ../aomailer_plugin.php:8
+msgid "Templates"
+msgstr "Templates"
+
+#: ../aomailer_plugin.php:9
+msgid "Mauling"
+msgstr "Newsletters"
+
+#: ../aomailer_plugin.php:10
+msgid "Login"
+msgstr "Login"
+
+#: ../aomailer_plugin.php:11
+msgid "Password"
+msgstr "Password"
+
+#: ../aomailer_plugin.php:12
+msgid "FromName"
+msgstr "Signature"
+
+#: ../aomailer_plugin.php:13
+msgid "Select"
+msgstr "Select..."
+
+#: ../aomailer_plugin.php:14
+msgid "Balance"
+msgstr "Balance"
+
+#: ../aomailer_plugin.php:15
+msgid "Connect"
+msgstr "Connect"
+
+#: ../aomailer_plugin.php:16
+msgid "AddBalance"
+msgstr "Add Balance"
+
+#: ../aomailer_plugin.php:17
+msgid "PersonalAccount"
+msgstr "Personal Account"
+
+#: ../aomailer_plugin.php:18
+msgid "ConnectSuccess"
+msgstr "Settings Save"
+
+#: ../aomailer_plugin.php:19
+msgid "EventUsed"
+msgstr "Used"
+
+#: ../aomailer_plugin.php:20
+msgid "NewOrder"
+msgstr "New Order"
+
+#: ../aomailer_plugin.php:21
+msgid "PaymentOrder"
+msgstr "Order Payment"
+
+#: ../aomailer_plugin.php:22
+msgid "ChangeOrder"
+msgstr "Change Status"
+
+#: ../aomailer_plugin.php:23
+msgid "TemplatesAdministrator"
+msgstr "Admin Templates"
+
+#: ../aomailer_plugin.php:24
+msgid "TemplatesAdministratorWarning"
+msgstr "When you click on a regular expression tag, the tag will be selected and copied to the clipboard."
+
+#: ../aomailer_plugin.php:25
+msgid "TemplatesClient"
+msgstr "Client Templates"
+
+#: ../aomailer_plugin.php:26
+msgid "TemplatesClientWarning"
+msgstr "When you click on a regular expression tag, the tag will be selected and copied to the clipboard."
+
+#: ../aomailer_plugin.php:27
+msgid "EventsAdministrator"
+msgstr "Admin Notifications"
+
+#: ../aomailer_plugin.php:28
+msgid "EventsAdministratorWarning"
+msgstr " "
+
+#: ../aomailer_plugin.php:29
+msgid "EventsClient"
+msgstr "Client Notifications"
+
+#: ../aomailer_plugin.php:30
+msgid "EventsClientWarning"
+msgstr " "
+
+#: ../aomailer_plugin.php:31
+msgid "TextSMS"
+msgstr "Message Text"
+
+#: ../aomailer_plugin.php:32
+msgid "EventsType"
+msgstr "Notification Type"
+
+#: ../aomailer_plugin.php:33
+msgid "StoresName"
+msgstr "Online Store Name"
+
+#: ../aomailer_plugin.php:34
+msgid "OrderID"
+msgstr "Order Number / ID"
+
+#: ../aomailer_plugin.php:35
+msgid "OrderSum"
+msgstr "Order Price"
+
+#: ../aomailer_plugin.php:36
+msgid "ClientName"
+msgstr "Client Name"
+
+#: ../aomailer_plugin.php:37
+msgid "ClientLastName"
+msgstr "Client Surname"
+
+#: ../aomailer_plugin.php:38
+msgid "OrderStatus"
+msgstr "Order Status"
+
+#: ../aomailer_plugin.php:39
+msgid "AddrOrderDelivery"
+msgstr "Delivery address"
+
+#: ../aomailer_plugin.php:40
+msgid "MethodOrderDelivery"
+msgstr "Order Delivery Method"
+
+#: ../aomailer_plugin.php:41
+msgid "AddrPayment"
+msgstr "Payment Address"
+
+#: ../aomailer_plugin.php:42
+msgid "MethodPayment"
+msgstr "Payment Method"
+
+#: ../aomailer_plugin.php:43
+msgid "CountLetters"
+msgstr "Characters"
+
+#: ../aomailer_plugin.php:44
+msgid "WaitingForPayment"
+msgstr "Pending Payment"
+
+#: ../aomailer_plugin.php:45
+msgid "Treatment"
+msgstr "In Processing"
+
+#: ../aomailer_plugin.php:46
+msgid "OnHold"
+msgstr "On Hold"
+
+#: ../aomailer_plugin.php:47
+msgid "Done"
+msgstr "Completed"
+
+#: ../aomailer_plugin.php:48
+msgid "Canceled"
+msgstr "Canceled"
+
+#: ../aomailer_plugin.php:49
+msgid "Returned"
+msgstr "Returned"
+
+#: ../aomailer_plugin.php:50
+msgid "Failed"
+msgstr "Error"
+
+#: ../aomailer_plugin.php:51
+msgid "LengthOneSms"
+msgstr "One SMS Length: "
+
+#: ../aomailer_plugin.php:52
+msgid "LengthOneSmsEng"
+msgstr "characters"
+
+#: ../aomailer_plugin.php:53
+msgid "SizeMessage"
+msgstr "Message Size"
+
+#: ../aomailer_plugin.php:54
+msgid "FromEmail"
+msgstr "Sender Email"
+
+#: ../aomailer_plugin.php:55
+msgid "FromNameEmail"
+msgstr "Sender Signature"
+
+#: ../aomailer_plugin.php:56
+msgid "ReplyTo"
+msgstr "Reply to Email"
+
+#: ../aomailer_plugin.php:57
+msgid "ReplyToName"
+msgstr "Reply to name"
+
+#: ../aomailer_plugin.php:58
+msgid "History"
+msgstr "History"
+
+#: ../aomailer_plugin.php:59
+msgid "Help"
+msgstr "Help"
+
+#: ../aomailer_plugin.php:60
+msgid "SettingsAdministrator"
+msgstr "Base Settings"
+
+#: ../aomailer_plugin.php:61
+msgid "SettingsAdministratorWarning"
+msgstr " "
+
+#: ../aomailer_plugin.php:62
+msgid "HistoryAdministrator"
+msgstr "History Messages"
+
+#: ../aomailer_plugin.php:63
+msgid "HistoryAdministratorWarning"
+msgstr " "
+
+#: ../aomailer_plugin.php:64
+msgid "btnSearch"
+msgstr "Search"
+
+#: ../aomailer_plugin.php:65
+msgid "Phone"
+msgstr "Phone"
+
+#: ../aomailer_plugin.php:66
+msgid "HelpTitle"
+msgstr "Help"
+
+#: ../aomailer_plugin.php:67
+msgid "HelpWarning"
+msgstr " "
+
+#: ../aomailer_plugin.php:68
+msgid "MailingTitle"
+msgstr "Newsletters"
+
+#: ../aomailer_plugin.php:69
+msgid "MailingWarning"
+msgstr " "
+
+#: ../aomailer_plugin.php:70
+msgid "SMS"
+msgstr "SMS"
+
+#: ../aomailer_plugin.php:71
+msgid "No History"
+msgstr "History Not Found"
+
+#: ../aomailer_plugin.php:72
+msgid "No Save"
+msgstr "Failed to save data."
+
+#: ../aomailer_plugin.php:73
+msgid "btnSend"
+msgstr "Send"
+
+#: ../aomailer_plugin.php:74
+msgid "SettingsAdministratorEmail"
+msgstr "Email Settings"
+
+#: ../aomailer_plugin.php:75
+msgid "SettingsAdministratorWarningEmail"
+msgstr " "
+
+#: ../aomailer_plugin.php:76
+msgid "EmailUsed"
+msgstr "Used"
+
+#: ../aomailer_plugin.php:77
+msgid "All customers"
+msgstr "All Clients"
+
+#: ../aomailer_plugin.php:78
+msgid "Use translit"
+msgstr "Used Translit"
+
+#: ../aomailer_plugin.php:79
+msgid "Read the instructions on the website TargetSMS"
+msgstr "Read the instructions on the TargetSMS website"
+
+#: ../aomailer_plugin.php:80
+msgid "Recipients"
+msgstr "Recipients"
+
+#: ../aomailer_plugin.php:81
+msgid "departure date"
+msgstr "Send Date"
+
+#: ../aomailer_plugin.php:82
+msgid "with status"
+msgstr "with status:"
+
+#: ../aomailer_plugin.php:83
+msgid "Select recipients"
+msgstr "select recipients"
+
+#: ../aomailer_plugin.php:84
+msgid "Missing data"
+msgstr "Missing Data"
+
+#: ../aomailer_plugin.php:85
+msgid "Could not send newsletter"
+msgstr "Failed to send newsletter"
+
+#: ../aomailer_plugin.php:86
+msgid "Message sent successfully"
+msgstr "Message sent successfully"
+
+#: ../aomailer_plugin.php:87
+msgid "Period"
+msgstr "Period"
+
+#: ../aomailer_plugin.php:88
+msgid "from"
+msgstr "from"
+
+#: ../aomailer_plugin.php:89
+msgid "to"
+msgstr "to"
+
+#: ../aomailer_plugin.php:90
+msgid "Operator"
+msgstr "Operator"
+
+#: ../aomailer_plugin.php:91
+msgid "Number"
+msgstr "Number"
+
+#: ../aomailer_plugin.php:92
+msgid "Send time"
+msgstr "Send Time"
+
+#: ../aomailer_plugin.php:93
+msgid "Status"
+msgstr "Status"
+
+#: ../aomailer_plugin.php:94
+msgid "Price"
+msgstr "Price"
+
+#: ../aomailer_plugin.php:95
+msgid "Failed to send email notification"
+msgstr "Failed to send email notification. Error: "
+
+#: ../aomailer_plugin.php:96
+msgid "Notification successfully sent"
+msgstr "Notification sent successfully. Message: "
+
+#: ../aomailer_plugin.php:97
+msgid "Incorrect data"
+msgstr "Incorrect data"
+
+#: ../aomailer_plugin.php:98
+msgid "No Answer"
+msgstr "Connection error"
